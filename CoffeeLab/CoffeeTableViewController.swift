@@ -93,14 +93,25 @@ class CoffeeTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        if (segue.identifier == "DetailSeg"){
+            let dest = segue.destination as! DetailViewController
+            let selectedIndex : Int = self.tableView.indexPathForSelectedRow!.row
+            let item = self.sampleData[selectedIndex]
+            dest.coffee = item
+        }
+        else {
+            return
+        }
     }
-    */
+    
+ 
 
 }

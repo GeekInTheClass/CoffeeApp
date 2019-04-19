@@ -15,6 +15,7 @@
 		3D513E9E22686830007B87EC /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D513E9D22686830007B87EC /* DataCenter.swift */; };
 		3D513EA0226869C7007B87EC /* CoffeeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D513E9F226869C7007B87EC /* CoffeeTableViewController.swift */; };
 		3D513EA2226870A5007B87EC /* CoffeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D513EA1226870A5007B87EC /* CoffeeTableViewCell.swift */; };
+		3D513EA42269D323007B87EC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D513EA32269D323007B87EC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3D513E9D22686830007B87EC /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		3D513E9F226869C7007B87EC /* CoffeeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTableViewController.swift; sourceTree = "<group>"; };
 		3D513EA1226870A5007B87EC /* CoffeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTableViewCell.swift; sourceTree = "<group>"; };
+		3D513EA32269D323007B87EC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3D513E9D22686830007B87EC /* DataCenter.swift */,
 				3D513E9F226869C7007B87EC /* CoffeeTableViewController.swift */,
 				3D513E92226863CB007B87EC /* Assets.xcassets */,
+				3D513EA32269D323007B87EC /* DetailViewController.swift */,
 				3D513EA1226870A5007B87EC /* CoffeeTableViewCell.swift */,
 				3D513E94226863CB007B87EC /* LaunchScreen.storyboard */,
 				3D513E97226863CB007B87EC /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D513E9E22686830007B87EC /* DataCenter.swift in Sources */,
+				3D513EA42269D323007B87EC /* DetailViewController.swift in Sources */,
 				3D513EA0226869C7007B87EC /* CoffeeTableViewController.swift in Sources */,
 				3D513EA2226870A5007B87EC /* CoffeeTableViewCell.swift in Sources */,
 				3D513E8E226863C9007B87EC /* ViewController.swift in Sources */,
